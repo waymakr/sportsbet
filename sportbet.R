@@ -8,6 +8,7 @@ library(tidyverse)
 library(robotstxt)
 library(httr)
 library(netstat)
+library(here)
 
 url <- read_html('https://www.colossalbet.com.au/sport/upcoming/SOCC')
 
